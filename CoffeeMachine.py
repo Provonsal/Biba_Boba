@@ -13,7 +13,7 @@ def Tovar_and_price():
     try:
         order_num = int(input("Введите номер заказа: "))
     except:
-        print("Ты ввел не число, дибил ты ебаный.")
+        print("Ты ввел не число, дибил.")
         Tovar_and_price()
     if order_num == 392:
         return order_num
@@ -25,7 +25,7 @@ def Tovar_and_price():
                     if k == tovar:
                         price = v
     else:    
-        print("Неверный номер товара!\n")
+        print("Неверный номер товара\n")
         return 392
     money = int(input(f"Гони столько денег: {price}"))
     if money == price:
