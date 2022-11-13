@@ -10,7 +10,7 @@ import time
 import shutil
 import playsound
 
-bot = telebot.TeleBot('5631167448:AAF653atpU0mAOvrOknu30_YC9YtvcS-7Ms')
+bot = telebot.TeleBot('ТОКЕН Я СТЕР ИЗ СООБРАЖЕНИЙ БЕЗОПАСНОСТИ')
 id_gruppi = '-1001641413207'
 papkaggg = 'C:\\Users\\Provonsal\\Downloads\\ggg\\'
 papkagovno = 'D:\\русификатор\\gavno\\'
